@@ -18,7 +18,7 @@ RenderSettings:
   m_FogDensity: .00999999978
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientLight: {r: .294117659, g: .294117659, b: .294117659, a: 1}
+  m_AmbientLight: {r: .125490203, g: .125490203, b: .125490203, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: .5
   m_FlareStrength: 1
@@ -907,7 +907,7 @@ Light:
   serializedVersion: 3
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .5
+  m_Intensity: .899999976
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blendMode: 3
-  intensity: 1.35000002
+  intensity: 1
   texture: {fileID: 2800000, guid: c5bd1d85c2f8e45ee89bafed62151b21, type: 3}
   overlayShader: {fileID: 4800000, guid: 8c81db0e527d24acc9bcec04e87781bd, type: 3}
 --- !u!114 &1019427036
@@ -1257,7 +1257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   downsample: 1
-  blurSize: 0
+  blurSize: .300000012
   blurIterations: 2
   blurType: 0
   blurShader: {fileID: 4800000, guid: f9d5fa183cd6b45eeb1491f74863cd91, type: 3}
@@ -1301,21 +1301,16 @@ MonoBehaviour:
       inSlope: 1
       outSlope: 1
       tangentMode: 0
-    - time: .333333284
-      value: .668525815
+    - time: .361551225
+      value: .749864101
       inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: .67368412
-      value: 1.00409639
-      inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: 1
-      value: 1
-      inSlope: 1
+      outSlope: .596574605
+      tangentMode: 23
+    - time: .791892886
+      value: 1.00659502
+      inSlope: .596574605
       outSlope: 1
-      tangentMode: 0
+      tangentMode: 21
     m_PreInfinity: 2
     m_PostInfinity: 2
   greenChannel:
@@ -1326,21 +1321,16 @@ MonoBehaviour:
       inSlope: 1
       outSlope: 1
       tangentMode: 0
-    - time: .333333284
-      value: .668525815
+    - time: .361551225
+      value: .749864101
       inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: .67368412
-      value: 1.00409639
-      inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: 1
-      value: 1
-      inSlope: 1
+      outSlope: .596574605
+      tangentMode: 23
+    - time: .791892886
+      value: 1.00659502
+      inSlope: .596574605
       outSlope: 1
-      tangentMode: 0
+      tangentMode: 21
     m_PreInfinity: 2
     m_PostInfinity: 2
   blueChannel:
@@ -1351,21 +1341,16 @@ MonoBehaviour:
       inSlope: 1
       outSlope: 1
       tangentMode: 0
-    - time: .333333284
-      value: .668525815
+    - time: .361551225
+      value: .749864101
       inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: .67368412
-      value: 1.00409639
-      inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: 1
-      value: 1
-      inSlope: 1
+      outSlope: .596574605
+      tangentMode: 23
+    - time: .791892886
+      value: 1.00659502
+      inSlope: .596574605
       outSlope: 1
-      tangentMode: 0
+      tangentMode: 21
     m_PreInfinity: 2
     m_PostInfinity: 2
   useDepthCorrection: 0
@@ -2047,7 +2032,7 @@ Light:
   serializedVersion: 3
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .5
+  m_Intensity: .899999976
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
