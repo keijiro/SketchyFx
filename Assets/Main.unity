@@ -1156,6 +1156,8 @@ GameObject:
   - 114: {fileID: 1019427036}
   - 114: {fileID: 1019427035}
   - 114: {fileID: 1019427039}
+  - 114: {fileID: 1019427037}
+  - 114: {fileID: 1019427040}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1240,8 +1242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blendMode: 3
-  intensity: 1
-  texture: {fileID: 2800000, guid: 41790a49a12614629926cb35fc21e094, type: 3}
+  intensity: 1.35000002
+  texture: {fileID: 2800000, guid: c5bd1d85c2f8e45ee89bafed62151b21, type: 3}
   overlayShader: {fileID: 4800000, guid: 8c81db0e527d24acc9bcec04e87781bd, type: 3}
 --- !u!114 &1019427036
 MonoBehaviour:
@@ -1254,11 +1256,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7914440ac9e4b22a60e4303888e90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  downsample: 0
+  downsample: 1
   blurSize: 0
   blurIterations: 2
   blurType: 0
   blurShader: {fileID: 4800000, guid: f9d5fa183cd6b45eeb1491f74863cd91, type: 3}
+--- !u!114 &1019427037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019427029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511c5f468de6640fba70164b5d48eae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interval: .0399999991
+  textures:
+  - {fileID: 2800000, guid: 009c489599a90461da1af5d1c162790f, type: 3}
+  - {fileID: 2800000, guid: 09bf98632b7f4405085b97d1eed46285, type: 3}
+  - {fileID: 2800000, guid: 13b238c0ef59e4ccea87f77306d276e7, type: 3}
+  - {fileID: 2800000, guid: 1f90eacc855204abb8ccdbc4581f7d98, type: 3}
+  - {fileID: 2800000, guid: 2c57ae6894bca41e9814b1cbd798db5b, type: 3}
+  - {fileID: 2800000, guid: 89ba952419d6242888120f965678b673, type: 3}
+  - {fileID: 2800000, guid: b1ddbb4b628a54214a6984e3dcf8a57a, type: 3}
+  - {fileID: 2800000, guid: c5bd1d85c2f8e45ee89bafed62151b21, type: 3}
 --- !u!114 &1019427038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,28 +1296,18 @@ MonoBehaviour:
   redChannel:
     serializedVersion: 2
     m_Curve:
-    - time: -.00941176433
-      value: .103030294
+    - time: -.00526315672
+      value: .348993242
       inSlope: 1
       outSlope: 1
       tangentMode: 0
-    - time: .202389076
-      value: .195371538
+    - time: .333333284
+      value: .668525815
       inSlope: Infinity
       outSlope: Infinity
       tangentMode: 31
-    - time: .399999917
-      value: .400069505
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 31
-    - time: .601754248
-      value: .608123183
-      inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: .799999893
-      value: .812821209
+    - time: .67368412
+      value: 1.00409639
       inSlope: Infinity
       outSlope: Infinity
       tangentMode: 31
@@ -1308,71 +1321,51 @@ MonoBehaviour:
   greenChannel:
     serializedVersion: 2
     m_Curve:
-    - time: -.0107573159
-      value: .199400574
+    - time: -.00526315672
+      value: .348993242
       inSlope: 1
       outSlope: 1
       tangentMode: 0
-    - time: .200876221
-      value: .400499701
+    - time: .333333284
+      value: .668525815
       inSlope: Infinity
       outSlope: Infinity
       tangentMode: 31
-    - time: .399999917
-      value: .599703193
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 31
-    - time: .600241363
-      value: .800430834
+    - time: .67368412
+      value: 1.00409639
       inSlope: Infinity
       outSlope: Infinity
       tangentMode: 31
-    - time: .799999893
-      value: .999634326
-      inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: 1.03025675
-      value: 1.00366282
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 7
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
   blueChannel:
     serializedVersion: 2
     m_Curve:
-    - time: -.0107573159
-      value: .199400574
+    - time: -.00526315672
+      value: .348993242
       inSlope: 1
       outSlope: 1
       tangentMode: 0
-    - time: .200876221
-      value: .400499701
+    - time: .333333284
+      value: .668525815
       inSlope: Infinity
       outSlope: Infinity
       tangentMode: 31
-    - time: .399999917
-      value: .599703193
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 31
-    - time: .600241363
-      value: .800430834
+    - time: .67368412
+      value: 1.00409639
       inSlope: Infinity
       outSlope: Infinity
       tangentMode: 31
-    - time: .799999893
-      value: .999634326
-      inSlope: Infinity
-      outSlope: Infinity
-      tangentMode: 31
-    - time: 1.03025675
-      value: 1.00366282
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 7
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
   useDepthCorrection: 0
@@ -1463,6 +1456,29 @@ MonoBehaviour:
   intensity: 1
   texture: {fileID: 2800000, guid: abb66e181cea94298b8b4365f0ea3199, type: 3}
   overlayShader: {fileID: 4800000, guid: 8c81db0e527d24acc9bcec04e87781bd, type: 3}
+--- !u!114 &1019427040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019427029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef3d242a13c447ac90c2d2dc213b1ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 0
+  intensity: 4
+  chromaticAberration: 3
+  axialAberration: .5
+  blur: 0
+  blurSpread: .75
+  luminanceDependency: .25
+  blurDistance: 2.5
+  vignetteShader: {fileID: 4800000, guid: 627943dc7a9a74286b70a4f694a0acd5, type: 3}
+  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
+  chromAberrationShader: {fileID: 4800000, guid: 2b4f29398d9484ccfa9fd220449f5eee,
+    type: 3}
 --- !u!1 &1045220726
 GameObject:
   m_ObjectHideFlags: 0
