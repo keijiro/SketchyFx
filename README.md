@@ -3,21 +3,20 @@ SketchyFx
 
 This is an attempt at making a sketch filter only with the standard assets in Unity.
 
-![screenshot](http://keijiro.github.io/SketchyFx/screenshot.png)
+![Screenshot][preview]
 
-[Video](https://vimeo.com/97597887)
+[Video (vimeo.com)][vimeo]
+
 
 Acknowledgements
 ----------------
 
-Pencil texture (pencil1-8.png) by Washu-m
+- Pencil texture (pencil1-8.png) by [Washu-m][pencil]
+- Paper texture (OTF_Crumpled_Paper_08.jpg) by [Brent Leimenstoll][paper]
+- Space Robot Kyle by [Kyle Brewer (provided from Unity Technologies)][kyle]
 
-http://washu-m.deviantart.com/art/1-5-Pencil-2b-blue-zig-zag-Texture-346889452
-
-Paper texture (OTF_Crumpled_Paper_08.jpg) by Brent Leimenstoll
-
-http://www.outsidethefray.com/2013/02/10-crumpled-paper-textures/
-
-Space Robot Kyle by Kyle Brewer (provided from Unity Technologies)
-
-https://www.assetstore.unity3d.com/en/#!/content/4696
+[preview]: http://keijiro.github.io/SketchyFx/screenshot.png
+[vimeo]:   http://vimeo.com/97597887
+[pencil]:  http://washu-m.deviantart.com/art/1-5-Pencil-2b-blue-zig-zag-Texture-346889452
+[paper]:   http://www.outsidethefray.com/2013/02/10-crumpled-paper-textures/
+[kyle]:    http://www.assetstore.unity3d.com/en/#!/content/4696
